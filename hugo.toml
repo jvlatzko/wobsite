@@ -1,0 +1,4 @@
+baseURL = 'https://jvlatzko.github.io/'
+languageCode = 'de-de'
+title = 'Vincent Latzko IT Consulting'
+theme = 'uilite'

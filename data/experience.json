@@ -1,0 +1,23 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "November 2022 -  March 2025",
+			"company" : "Glasfaser Nordwest",
+			"website": "https://www.Glasfaser-Nordwest.de",
+			"description" : "Assurance Solution Specialist, Communications Industry, Joint Venture of Deutsche Telekom and EWE AG. As GFNW is a carrier of an open-access fiber network, I supported onboarding of several wholesale customers, redesigned the assurance operations, and implemented KRITIS-compliant disaster recovery"
+		},
+		{
+			"timeperiod" : "June 2022 -  October 2022",
+			"company" : "Meridiam Glasfaser",
+			"website": "https://www.meridiam-glasfaser.de",
+			"description" : "Platform Analysis Specialist, Branch of the Meridiam Priate Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.)"
+		},
+		{
+			"timeperiod" : "June 2017 -  July 2025",
+			"company" : "Technische Universität Dresden, Communication Networks",
+			"website": "https://www.comnets.net",
+			"description" : "PhD Researcher on Cloud Computing and Communications. I did my dissertation on reliable communications, computation offloading to cloud and edge cloud systems, and cloud provisioning and scaling under uncertainty "
+		}
+	]
+}

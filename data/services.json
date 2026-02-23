@@ -1,0 +1,15 @@
+{
+	"title" : "Services",
+	"services" : [
+		{
+			"icon" : "pencil-ruler",
+			"title" : "Consulting",
+			"description" : "Jack of all trades - master of few. I can most likely help you, give me processes to improve, problems to solve, or teams to support. Try me, none have regretted it."
+		},
+		{
+			"icon" : "pen-nib",
+			"title" : "Mission Support",
+			"description" : "I help you gather momentum, or help you maintain it. I bulldoze issues and free your teams. Thank you for helping me help you help us all."
+		}
+	]
+}

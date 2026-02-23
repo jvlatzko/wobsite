@@ -1,0 +1,12 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"Operations" : "85",
+		"Assurance" : "90",
+		"Processes" : "85",
+		"Research" : "98", 
+		"Teaching" : "98",
+		"Knowledge Transfer": "97",
+		"Cloud Operations": "75"
+	}
+}
