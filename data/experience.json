@@ -2,22 +2,22 @@
 	"title" : "Experience",
 	"experience" : [
 		{
-			"timeperiod" : "November 2022 -  March 2025",
+			"timeperiod" : "November 2022 -  March 2026",
 			"company" : "Glasfaser Nordwest",
 			"website": "https://www.Glasfaser-Nordwest.de",
-			"description" : "Assurance Solution Specialist, Communications Industry, Joint Venture of Deutsche Telekom and EWE AG. As GFNW is a carrier of an open-access fiber network, I supported onboarding of several wholesale customers, redesigned the assurance operations, and implemented KRITIS-compliant disaster recovery"
+			"description" : "Assurance Solution Specialist, Communications Industry, Joint Venture of Deutsche Telekom and EWE AG. As GFNW is a carrier of an open-access fiber network, I supported onboarding of several wholesale customers, redesigned the assurance operations, and implemented KRITIS-compliant disaster recovery. Testimonials [2023-12]: 'Du bist wie ein Schweizer Taschenmesser, ohne dich würde was fehlen'"
 		},
 		{
 			"timeperiod" : "June 2022 -  October 2022",
 			"company" : "Meridiam Glasfaser",
 			"website": "https://www.meridiam-glasfaser.de",
-			"description" : "Platform Analysis Specialist, Branch of the Meridiam Priate Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.)"
+			"description" : "Platform Analysis Specialist, Branch of the Meridiam Priate Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.) Testimonials [2022-08]: 'Ja du hast das Team jetzt kennengelernt, Team will dich haben'"
 		},
 		{
 			"timeperiod" : "June 2017 -  July 2025",
 			"company" : "Technische Universität Dresden, Communication Networks",
 			"website": "https://www.comnets.net",
-			"description" : "PhD Researcher on Cloud Computing and Communications. I did my dissertation on reliable communications, computation offloading to cloud and edge cloud systems, and cloud provisioning and scaling under uncertainty "
+			"description" : "PhD Researcher on Cloud Computing and Communications. I did my dissertation on reliable communications, computation offloading to cloud and edge cloud systems, and cloud provisioning and scaling under uncertainty. I used tinygp, python, kubernetes, tensorflow, and sklearn, as well as special purpose optimisation tooling"
 		}
 	]
 }
