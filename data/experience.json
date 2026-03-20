@@ -11,13 +11,13 @@
 			"timeperiod" : "June 2022 -  October 2022",
 			"company" : "Meridiam Glasfaser",
 			"website": "https://www.meridiam-glasfaser.de",
-			"description" : "Platform Analysis Specialist, Branch of the Meridiam Priate Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.) Testimonials [2022-08]: 'Ja du hast das Team jetzt kennengelernt, Team will dich haben'"
+			"description" : "Platform Analysis Specialist, Branch of the Meridiam Private Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.) Testimonials [2022-08]: 'Ja du hast das Team jetzt kennengelernt, Team will dich haben'"
 		},
 		{
 			"timeperiod" : "June 2017 -  July 2025",
 			"company" : "Technische Universität Dresden, Communication Networks",
 			"website": "https://www.comnets.net",
-			"description" : "PhD Researcher on Cloud Computing and Communications. I did my dissertation on reliable communications, computation offloading to cloud and edge cloud systems, and cloud provisioning and scaling under uncertainty. I used tinygp, python, kubernetes, tensorflow, and sklearn, as well as special purpose optimisation tooling"
+			"description" : "PhD Researcher on Cloud Computing and Communications. I did my dissertation on reliable communications, computation offloading to cloud and edge cloud systems, and cloud provisioning and scaling under uncertainty. I used tinygp, python, kubernetes, tensorflow, and sklearn, as well as special purpose optimisation tooling. I disemminated results in several international projects and conferences (cf. Google Scholar)"
 		}
 	]
 }
