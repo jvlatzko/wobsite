@@ -1,0 +1,50 @@
+{{- partial "check-placeholders.html" . -}}
+{{- $config := site.Data.config -}}
+{{- $description := .Description | default site.Params.description -}}
+{{- $title := site.Title -}}
+{{- if not .IsHome }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end -}}
+<!DOCTYPE html>
+<html lang="{{ .Params.htmlLang | default "en" }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ $title }}</title>
+	<meta name="description" content="{{ $description }}">
+	<meta name="author" content="{{ $config.author }}">
+	<meta name="theme-color" content="#000000">
+	{{- with .Params.robots }}
+	<meta name="robots" content="{{ . }}">
+	{{- end }}
+	<link rel="canonical" href="{{ .Permalink }}">
+	<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+	<!-- Everything is served from this site: no Google Fonts, CDNs or trackers -->
+	<link rel="preload" href="{{ "fonts/montserrat-latin-800-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+	<link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+	<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+	<noscript><style>.sidebar .main-info *{opacity:1;transform:none}.main-content:after{display:none}</style></noscript>
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ $title }}">
+	<meta property="og:description" content="{{ $description }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:image" content="{{ printf "images/%s" site.Data.sidebar.displayPicture | absURL }}">
+	<meta name="twitter:card" content="summary">
+
+	{{- if .IsHome }}
+	{{- $sameAs := slice }}
+	{{- range site.Data.social }}{{ $sameAs = $sameAs | append . }}{{ end }}
+	{{- range site.Data.socialfas }}{{ if hasPrefix . "http" }}{{ $sameAs = $sameAs | append . }}{{ end }}{{ end }}
+	{{- $person := dict
+		"@context" "https://schema.org"
+		"@type" "Person"
+		"name" $config.author
+		"url" .Permalink
+		"image" (printf "images/%s" site.Data.sidebar.displayPicture | absURL)
+		"sameAs" $sameAs
+	}}
+	<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+	{{- end }}
+</head>
+<body class="clearfix">

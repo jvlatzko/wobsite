@@ -1,0 +1,14 @@
+{{- $c := site.Data.config -}}
+<p>
+  {{ $c.author }}<br>
+  {{ $c.street }}<br>
+  {{ $c.city }}<br>
+  Deutschland
+</p>
+<p>
+  {{ with $c.phone }}Telefon: <a href="tel:{{ replaceRE `[^+0-9]` "" . }}">{{ . }}</a><br>{{ end }}
+  E-Mail: {{ partial "email-link.html" $c.email }}
+  {{- with site.Data.social.linkedin }}<br>
+  LinkedIn: <a href="{{ . }}" target="_blank" rel="noopener">{{ strings.TrimPrefix "https://www." . }}</a>
+  {{- end }}
+</p>

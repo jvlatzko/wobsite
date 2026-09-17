@@ -1,0 +1,4 @@
+<footer class="site-footer text-muted">
+  {{ with site.GetPage "/impressum" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+  {{ with site.GetPage "/datenschutz" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+</footer>

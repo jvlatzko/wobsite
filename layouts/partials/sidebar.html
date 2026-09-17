@@ -1,0 +1,36 @@
+{{ $sidebar := .Site.Data.sidebar }}
+{{ $labels := dict
+	"github" "GitHub"
+	"linkedin" "LinkedIn"
+	"strava" "Strava"
+	"graduation-cap" "Google Scholar"
+	"university" "TU Dresden"
+	"envelope" "Contact"
+}}
+
+<section id="sidebar" class="sidebar d-flex align-items-center p-5">
+  <div class="main-info">
+
+    <img src="{{ printf "images/%s" $sidebar.displayPicture | relURL }}" class="rounded-circle mb-3" width="160" height="160" alt="{{ .Site.Data.config.author }}">
+
+    <h1 class="heading">{{ $sidebar.title }} <span class="highlight">{{ $sidebar.highlightedText }}</span></h1>
+    <p class="text-muted">{{ $sidebar.description | safeHTML }}</p>
+
+    <div class="social my-4">
+      {{ range $key, $value := .Site.Data.social }}
+        <a href="{{ $value }}" target="_blank" rel="me noopener" aria-label="{{ index $labels $key | default $key }}" title="{{ index $labels $key | default $key }}">
+          {{ partial "icon.html" $key }}
+        </a>
+      {{ end }}
+
+      {{ range $key, $value := .Site.Data.socialfas }}
+        <a href="{{ $value }}"{{ if hasPrefix $value "http" }} target="_blank" rel="noopener"{{ end }} aria-label="{{ index $labels $key | default $key }}" title="{{ index $labels $key | default $key }}">
+          {{ partial "icon.html" $key }}
+        </a>
+      {{ end }}
+    </div>
+
+    <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
+
+  </div>
+</section>

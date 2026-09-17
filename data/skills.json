@@ -1,12 +1,20 @@
 {
 	"title" : "Skills",
-	"skills" : {
-		"Operations" : "85",
-		"Assurance" : "90",
-		"Processes" : "88",
-		"Research" : "95", 
-		"Teaching" : "95",
-		"Knowledge Transfer": "95",
-		"Cloud Architecture & Operations": "75"
-	}
+	"groups" : [
+		{
+			"title" : "Operations & Assurance",
+			"evidence" : "Redesigned company-wide assurance operations, onboarded wholesale customers and implemented KRITIS-compliant disaster recovery for an open-access fiber network.",
+			"tags" : ["Operations", "Assurance", "Processes", "Disaster recovery (KRITIS)", "IT system selection"]
+		},
+		{
+			"title" : "Cloud Architecture & Operations",
+			"evidence" : "PhD research on resilient communications, offloading computation to cloud and edge systems, and on provisioning and scaling them under uncertainty.",
+			"tags" : ["Cloud architecture", "Edge computing", "Kubernetes", "Python", "TensorFlow", "scikit-learn", "tinyGP", "NumPyro", "Network coding"]
+		},
+		{
+			"title" : "Research & Knowledge Transfer",
+			"evidence" : "Eight years at TU Dresden, with results presented in international projects and at conferences. Taught lectures and labs on communication networks, submitted proposals, received > 2 M€ of funding",
+			"tags" : ["Research", "Project management", "Project reporting", "Teaching", "Knowledge transfer"]
+		}
+	]
 }

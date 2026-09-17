@@ -1,4 +1,7 @@
-baseURL = 'https://jvlatzko.github.io/'
-languageCode = 'de-de'
+baseURL = 'https://jvlatzko.github.io/wobsite/'
 title = 'Vincent Latzko IT Consulting'
 theme = 'uilite'
+disableKinds = ['taxonomy', 'term', 'rss']
+
+[params]
+description = 'Vincent Latzko, Operations Specialist based in Dresden, Germany: assurance operations, processes, cloud architecture and knowledge transfer.'

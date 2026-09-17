@@ -1,0 +1,11 @@
+{{- /*
+  Email link that keeps the plain address out of the HTML source.
+  The address is stored reversed and assembled by js/main.js;
+  without JavaScript, visitors see "name [at] domain [dot] tld".
+*/ -}}
+{{- $reversed := "" -}}
+{{- range split . "" }}{{ $reversed = printf "%s%s" . $reversed }}{{ end -}}
+<a href="#contact" class="js-email" data-reversed="{{ $reversed }}">
+  {{- partial "icon.html" "envelope" -}}
+  <span class="js-email-text">{{ replace (replace . "@" " [at] ") "." " [dot] " }}</span>
+</a>

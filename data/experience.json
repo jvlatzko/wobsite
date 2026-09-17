@@ -5,13 +5,19 @@
 			"timeperiod" : "November 2022 -  March 2026",
 			"company" : "Glasfaser Nordwest",
 			"website": "https://www.Glasfaser-Nordwest.de",
-			"description" : "Assurance Solution Specialist, Communications Industry, Joint Venture of Deutsche Telekom and EWE AG. As GFNW is a carrier of an open-access fiber network, I supported onboarding of several wholesale customers, redesigned the assurance operations, and implemented KRITIS-compliant disaster recovery. Testimonials [2023-12]: 'Du bist wie ein Schweizer Taschenmesser, ohne dich würde was fehlen'"
+			"description" : "Assurance Solution Specialist, Freelance, Communications Industry, Joint Venture of Deutsche Telekom and EWE AG. As GFNW is a carrier of an open-access fiber network, I supported onboarding of several wholesale customers, redesigned the assurance operations, and implemented KRITIS-compliant disaster recovery. Testimonials [2023-12]: 'Du bist wie ein Schweizer Taschenmesser, ohne dich würde was fehlen'"
 		},
 		{
 			"timeperiod" : "June 2022 -  October 2022",
 			"company" : "Meridiam Glasfaser",
 			"website": "https://www.meridiam-glasfaser.de",
-			"description" : "Platform Analysis Specialist, Branch of the Meridiam Private Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.) Testimonials [2022-08]: 'Ja du hast das Team jetzt kennengelernt, Team will dich haben'"
+			"description" : "Platform Analysis Specialist, Freelance, Branch of the Meridiam Private Equity platform. I helped jumpstart the business and in close collaboration with C-level prepared IT-systems for selection and implementation: DMS, ERP, and core asset management system (adressmaster, GIS-system, etc.) Testimonials [2022-08]: 'Ja du hast das Team jetzt kennengelernt, Team will dich haben'"
+		},
+      {
+			"timeperiod" : "December 2020 -  January 2021",
+			"company" : "TwentyZEN",
+			"website": "https://www.twentyzen.com",
+			"description" : "Containerisation of a key tool in daily process, with ironing out some quirks in the supplied Docker image; Setup the build pipeline with Terraform, debugged configuration, minor support in operations. "
 		},
 		{
 			"timeperiod" : "June 2017 -  July 2025",

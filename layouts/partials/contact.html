@@ -1,0 +1,25 @@
+{{ $config := .Site.Data.config }}
+
+<section id="contact" class="bg-light">
+  <h2 class="heading">Contact</h2>
+
+  <ul class="contact-list list-unstyled">
+    {{ with $config.phone }}
+    <li>
+      <a href="tel:{{ replaceRE `[^+0-9]` "" . }}">
+        {{ partial "icon.html" "phone" }}<span>{{ . }}</span>
+      </a>
+    </li>
+    {{ end }}
+    <li>
+      {{ partial "email-link.html" $config.email }}
+    </li>
+    {{ with .Site.Data.social.linkedin }}
+    <li>
+      <a href="{{ . }}" target="_blank" rel="noopener">
+        {{ partial "icon.html" "linkedin" }}<span>LinkedIn</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>

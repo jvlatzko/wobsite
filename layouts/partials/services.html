@@ -1,0 +1,20 @@
+{{ $services := .Site.Data.services }}
+
+<section class="blue">
+  <h2 class="heading">{{ $services.title }}</h2>
+
+  <div class="row justify-content-md-center text-center">
+
+    {{ range $services.services }}
+
+    <div class="col-12 col-lg-6 col-md-6 mb-3">
+      <div class="card p-4">
+        <span class="service-icon mt-3">{{ partial "icon.html" .icon }}</span>
+        <h3 class="h5 mt-4">{{ .title }}</h3>
+        <p class="text-muted">{{ .description }}</p>
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+</section>

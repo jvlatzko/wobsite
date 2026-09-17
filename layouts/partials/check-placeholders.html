@@ -1,0 +1,8 @@
+{{- /* The Impressum must not go live with placeholder address data. */ -}}
+{{- if strings.Contains (jsonify site.Data.config) "TODO" -}}
+	{{- if hugo.IsProduction -}}
+		{{- errorf "data/config.json still contains TODO placeholders (address/phone for the Impressum). Fill them in before deploying." -}}
+	{{- else -}}
+		{{- warnidf "config-placeholders" "data/config.json still contains TODO placeholders (address/phone for the Impressum)." -}}
+	{{- end -}}
+{{- end -}}

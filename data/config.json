@@ -1,5 +1,8 @@
 {
 	"author" : "Vincent Latzko",
 	"email" : "vlatzko@icloud.com",
-	"formspree" : "n/a"
+	"phone" : "",
+	"street" : "Münzmeisterstraße 12C",
+	"city" : "01217 Dresden",
+	"vatId" : "DE344256012"
 }

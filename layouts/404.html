@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-header.html" . }}
+
+<main class="page-body">
+  <h1 class="heading">404</h1>
+  <article>
+    <p>This page doesn't exist. Did you type <em>website</em> instead of <em>wobsite</em>?</p>
+    <p><a href="{{ "/" | relURL }}" class="btn btn-dark">Back to the start</a></p>
+  </article>
+</main>
+
+{{ partial "footer.html" . }}
+{{ partial "footer-scripts.html" . }}
