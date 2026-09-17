@@ -22,6 +22,8 @@ Bernhard-Wicki-Straße 3\
 80636 München\
 Deutschland
 
+Räumlicher Geltungsbereich: weltweit, einschließlich USA und Kanada
+
 ## Verbraucherstreitbeilegung
 
 Ich bin nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.

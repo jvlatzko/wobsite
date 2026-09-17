@@ -2,6 +2,12 @@
 	"title" : "Experience",
 	"experience" : [
 		{
+			"timeperiod" : "June 2026 -  present",
+			"company" : "Commit to Flow GmbH",
+			"website": "https://dataflow.academy/en/homepage",
+			"description" : "Kafka Consulting, with a focus on backup solutions and disaster recovery. We think less deeply about the backup, and much harder about the restore. With dependency graphs of applications, we figure out which cluster state to restore so that reloads and reprocessing are kept at a minimum, while we guarantee no orphans or other unnatural consequences."
+		},
+    	{
 			"timeperiod" : "November 2022 -  March 2026",
 			"company" : "Glasfaser Nordwest",
 			"website": "https://www.Glasfaser-Nordwest.de",
