@@ -1,6 +1,5 @@
 baseURL = 'https://jvlatzko.github.io/wobsite/'
 title = 'Vincent Latzko IT Consulting'
-theme = 'uilite'
 disableKinds = ['taxonomy', 'term', 'rss']
 
 [params]
